@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prijenos datoteka</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Prijenos datoteka</h1>
+
+      <form
+        action="http://localhost:8000/upload"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <input type="file" name="datotekaZaUpload" />
+        <input type="submit" value="Upload" />
+      </form>
+      <a href="index.html"><button>Početna stranica</button></a>
+    </div>
+  </body>
+</html>
